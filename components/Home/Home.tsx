@@ -8,7 +8,6 @@ import Skills from "./Skills/Skills";
 import ClientReviews from "./ClientReviews/ClientReviews";
 import Blog from "./Blog/Blog";
 import Contact from "./Contact/Contact";
-import Footer from "./Footer/Footer";
 import ScrollToTop from "../Helper/ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
