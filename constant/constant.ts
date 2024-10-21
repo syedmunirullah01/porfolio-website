@@ -3,31 +3,31 @@ import { url } from "inspector";
 export const navLinks = [
   {
     id: 1,
-    url: "#",
+    url: "/",
     label: "Home",
   },
   {
     id: 2,
-    url: "#",
+    url: "/about",
     label: "About",
   },
   {
     id: 3,
-    url: "#",
+    url: "/services",
     label: "Services",
   },
   {
     id: 4,
-    url: "#",
+    url: "/projects",
     label: "Projects",
   },
   {
     id: 5,
-    url: "#",
+    url: "/reviews",
     label: "Reviews",
   },
   {
     id: 6,
-    url: "#",
+    url: "/contact",
     label: "Contact",
   }];
