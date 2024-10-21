@@ -28,7 +28,7 @@ const Nav = ({ openNav }: Props) => {
         navBg ? "bg-[#240b39]" : "bg-transparent"
       } h-[12vh] z-[10] w-full`}
     >
-      <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
+      <div className="flex items-center h-full justify-between w-full px-4 sm:px-10 lg:px-0 xl:w-[80%] mx-auto">
         <Image
           src="/images/logo.png"
           alt="Logo"
@@ -49,7 +49,7 @@ const Nav = ({ openNav }: Props) => {
           </div>
           <div className="flex items-center space-x-4">
             <Link href="/contact">
-              <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
+              <button className="px-4 py-2 text-blue-800 font-semibold text-xs sm:text-sm md:text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg whitespace-nowrap">
                 Hire Me
               </button>
             </Link>
