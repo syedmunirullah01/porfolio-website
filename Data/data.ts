@@ -240,7 +240,7 @@ export const blogs = [
 ];
 
 export const contactData = {
-  phone: "+92(3217504098)",
+  phone: "+92(321-7504098)",
   email: "syedmunirullah01@gmail.com",
   address: "Karachi , Pakistan",
 };

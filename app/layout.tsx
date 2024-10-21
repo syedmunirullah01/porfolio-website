@@ -7,8 +7,7 @@ import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 import AnimatedCursor from "react-animated-cursor";
-// You can also use <link> for styles
-// ..
+
 
 const font = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],

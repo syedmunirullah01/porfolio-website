@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 const Footer = () => {
@@ -14,13 +15,25 @@ const Footer = () => {
           />
         </div>
         <div className="flex items-center flex-wrap justify-center space-x-10 space-y-4 text-white font-bold">
-          <div>Home</div>
-          <div>Services</div>
-          <div>Project</div>
-          <div>Reviews</div>
-          <div>Contact</div>
+          <Link href="/">
+            <div>Home</div>
+          </Link>
+          <Link href="/services">
+            <div>Services</div>
+          </Link>
+          <Link href="/projects">
+            <div>Project</div>
+          </Link>
+          <Link href="/reviews">
+            <div>Reviews</div>
+          </Link>
+          <Link href="/contact">
+            <div>Contact</div>
+          </Link>
         </div>
-        <p className="text-white text-opacity-60 mt-6 text-center">© 2024 All Rights Reserved by Syed Munir Ullah</p>
+        <p className="text-white text-opacity-60 mt-6 text-center">
+          © 2024 All Rights Reserved by Syed Munir Ullah
+        </p>
       </div>
     );
 }
