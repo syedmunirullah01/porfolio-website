@@ -14,7 +14,7 @@ type Props = {
 const BlogCard = ({ blog }: Props) => {
     const { date, image, summary, title } = blog;
   return (
-    <div className="bg-[#121212] rounded-md overflow-hidden">
+    <div className="bg-[#3730a3] rounded-md overflow-hidden">
       <Image
         src={image}
         alt={title}

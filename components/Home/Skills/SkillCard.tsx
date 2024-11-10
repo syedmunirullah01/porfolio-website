@@ -11,7 +11,7 @@ type Props = {
 const SkillCard = ({ skill }: Props) => {
     const { image, percent, title } = skill;
   return (
-    <div className="p-6 hover:bg-[#121212] duration-300 transition-all cursor-pointer text-center rounded-lg text-gray-500">
+    <div className="p-6 hover:bg-[#1e3a8a] duration-300 transition-all cursor-pointer text-center rounded-lg text-gray-500">
       <Image
         src={image}
         alt={title}

@@ -15,7 +15,7 @@ const ReviewCard = ({ review }: Props) => {
   const { image, name, profession, rating, review: clientReview } = review;
 
   return (
-    <div className="rounded-md overflow-hidden bg-[#121212] m-4">
+    <div className="rounded-md overflow-hidden bg-[#140c1c] m-4">
       <div className="p-6">
         <Image
           src="/images/q.png"
