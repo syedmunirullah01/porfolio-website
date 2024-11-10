@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
+    <div className="bg-[#121212] rounded-lg p-4 sm:p-10">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
         Let&apos;s Work Together
       </h1>
@@ -53,7 +53,7 @@ const ContactForm = () => {
           placeholder="Message"
         ></textarea>
         <div className="mt-4">
-          <button className="px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full">
+          <button className="px-8 py-3.5 bg-[#48474a] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full">
             Send Message
           </button>
         </div>
