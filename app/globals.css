@@ -7,7 +7,7 @@
         @apply relative text-base font-medium w-fit block after:block after:content-[""] after:absolute after:h-[3px] after:bg-yellow-500 text-white after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-right 
     }
     .text-bg{
-        background-image: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+        background-image: linear-gradient(to right, #121212 0%, #ffffff 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -18,10 +18,10 @@
         height: 10px;
     }
     .custom-Scrollbar::-webkit-scrollbar-track{
-        background : #44028f;
+        background : #707070;
     }
     .custom-Scrollbar::-webkit-scrollbar-thumb{
-        background: #e277fa;
+        background: #353535;
         border-radius: 4px;
     }
 }

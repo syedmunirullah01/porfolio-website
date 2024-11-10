@@ -6,7 +6,7 @@ const ContactInfo = () => {
   return (
     <div className="flex flex-col justify-center items-center h-full space-y-8">
       <div className="flex items-center space-x-6 w-full max-w-md">
-        <div className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-900">
+        <div className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#949395] hover:bg-[#1e1e1f]">
           <FaPhone className="w-5 h-5 md:w-7 md:h-7 text-white" />
         </div>
         <div className="flex flex-col">
@@ -21,7 +21,7 @@ const ContactInfo = () => {
       </div>
 
       <div className="flex items-center space-x-6 w-full max-w-md">
-        <div className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-900">
+        <div className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#949395] hover:bg-[#1e1e1f]">
           <FaEnvelope className="w-5 h-5 md:w-7 md:h-7 text-white" />
         </div>
         <div className="flex flex-col">
@@ -33,7 +33,7 @@ const ContactInfo = () => {
       </div>
 
       <div className="flex items-center space-x-6 w-full max-w-md">
-        <div className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-900">
+        <div className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#949395] hover:bg-[#1e1e1f]">
           <FaMap className="w-5 h-5 md:w-7 md:h-7 text-white" />
         </div>
         <div className="flex flex-col">
