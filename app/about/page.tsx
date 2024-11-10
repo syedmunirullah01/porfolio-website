@@ -6,6 +6,7 @@ const AboutPage = () => {
   return (
     <div className="bg-[#050709] pt-16 pb-16">
       {" "}
+
       <About />
     </div>
   );

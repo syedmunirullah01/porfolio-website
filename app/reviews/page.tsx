@@ -3,7 +3,7 @@ import ClientReviews from "@/components/Home/ClientReviews/ClientReviews";
 import React from "react";
 
 
-const AboutPage = () => {
+const ReviewPage = () => {
   return (
     <div className="bg-[#050709] pt-16 pb-16">
       {" "}
@@ -13,4 +13,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default ReviewPage;
